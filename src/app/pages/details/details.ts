@@ -28,7 +28,7 @@ import { ApiService } from '../../services/api';
     </div>
   `
 })
-export class DetailsComponent implements OnInit {
+export class Details implements OnInit {
   private api = inject(ApiService);
   private route = inject(ActivatedRoute);
 

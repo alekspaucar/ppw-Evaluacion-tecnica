@@ -17,6 +17,6 @@ import { RouterLink } from '@angular/router';
     </div>
   `
 })
-export class CardComponent {
+export class Card {
   item = input.required<any>();
 }

@@ -11,7 +11,7 @@ import { ApiService } from '../../services/api';
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
-export class HomeComponent implements OnInit {
+export class Home implements OnInit {
   private api = inject(ApiService);
   countries = signal<Country[]>([]);
   loading = signal(true);
